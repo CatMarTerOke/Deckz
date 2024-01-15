@@ -21,4 +21,11 @@ body {
   padding: 1rem; 
 }
 
+section {
+  display: flex; 
+  justify-content: center;
+}
+
+
+
 
