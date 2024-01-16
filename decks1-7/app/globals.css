@@ -25,6 +25,17 @@ section {
   display: flex; 
   justify-content: center;
 }
+p
+{
+background: white;
+margin-top: -10.0rem;
+z-index: 100;
+}
+
+p.positioned
+{
+position: relative;
+}
 
 
 
