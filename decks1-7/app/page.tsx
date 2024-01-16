@@ -5,6 +5,7 @@ import './globals.css';
 
 
 
+
 export default function Home() {
   
   return (
@@ -15,8 +16,10 @@ export default function Home() {
         <Link href="newUser">
           <Image src='/images/newUserButton.png' width={400} height={200} alt="newUserButton"/>
         </Link>
-        <Image src='/images/oldUserButton.png' width={400} height={200} alt="oldUserButton"/>
+        <Link href="oldUser"><Image src='/images/oldUserButton.png' width={400} height={200} alt="oldUserButton"/> </Link>
+        
       </section>
+      
     
     
     </>
